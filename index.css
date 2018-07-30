@@ -7,6 +7,9 @@ body{
   padding:0px;
   margin:0px;
 }
+.menu-1-2 a{
+  color:black;
+}
 .first-line{
   background-color: green;
   display:flex;
