@@ -1,0 +1,78 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+.profile-pic{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  margin-bottom:10px;
+  }
+.div1{
+  display:flex;
+  justify-content:flex-start;
+  margin-right:auto;
+  flex-direction: column;
+}
+.row a i{
+  padding-top:20px;
+  padding-right:20px;
+  font-size: 2.5rem;
+  color:black;
+}
+.container{
+  border:2px solid black;
+}
+.row-menu{
+  display:flex;
+  justify-content: flex-end;
+}
+.row-menu .glyphicon{
+  font-size:2.5rem;
+  padding-left: 20px;
+  padding-top:20px;
+  color:black;
+}
+.row div .row{
+  padding-top:10px;
+  marign-left:20px;
+}
+.main-row{
+  background-color:green;
+z-index:5;
+position:fixed;
+top:0%;
+left:10%;
+width:80%;
+
+}
+.chat-box{
+height:100vh;
+width:80%;
+background-color:grey;
+position:absolute;
+left:10%;
+}
+.row3{
+  display:flex;
+  position:absolute;
+  bottom:0px;
+  width:80%;
+  left:10%;
+
+}
+.row3 div span{
+  border-top-left-radius:50%;
+  border-bottom-left-radius:50%;
+  background-color: white;
+}
+.row3 .input-group-addon:nth-child(4){
+  border-top-right-radius:50%;
+  border-bottom-right-radius:50%;
+  color:yellow;
+}
+.row3 span:nth-child(5){
+  border-radius:50%;
+background-color:green;
+color:white;
+}

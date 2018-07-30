@@ -1,0 +1,114 @@
+*{
+  padding:0px;
+  margin:0px;
+  text-decoration: none;
+}
+body{
+  padding:0px;
+  margin:0px;
+}
+.first-line{
+  background-color: green;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  padding:0px 20px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:15px;
+  z-index:5;
+}
+.name{
+  font-family:"timesnewroman", sans-serif ;
+}
+.menu-1-2
+{
+  display:flex;
+  justify-content: flex-end;
+}
+.second-line div a{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  color:white;
+}
+.second-line div:nth-child(2){
+  border-bottom:5px solid white;
+}
+.second-line div:nth-child(1,3,4){
+  border-bottom:5px solid green;
+}
+.second-line div{
+  padding:10px;
+}
+.second-line div i{
+  font-size: 2rem;
+  padding-left:10px;
+}
+.second-line{
+  background-color:green;
+  color:white;
+  position:fixed;
+  width:100%;
+  top:38px;
+  left:15px;
+  z-index:5
+}
+.profile-pic{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:2vh;
+
+}
+
+.contact{
+  padding: 10px 10px;
+  border-bottom: 1px solid #a8a8a8;
+  padding-right: 20px;
+
+}
+.contact1{
+    margin-top:80px;
+}
+.name2{
+  display:flex;
+  justify-content:flex-start;
+}
+.time{
+  display:flex;
+  flex-direction:row;
+ float:right;
+}
+.detail1{
+  display:flex;
+  justify-content:flex-start;
+}
+.badge{
+  display:flex;
+float:right;
+}
+.glyphicon1{
+  position:fixed;
+  top:90vh;
+  left:90vw;
+  color:white;
+  background-color:green;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.badge{
+  background-color: green;
+}
